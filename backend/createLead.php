@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $lead = getLeadByEmail($email);
 if($lead['lead']){
 
-	http_response_code(403);
+	http_response_code(200);
 	echo json_encode(array("error"	=> true,
 							"msg"	=> "Looks like you've already signed up for Fixed alerts. ".$email." is already on our list."));
 	return;
