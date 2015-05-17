@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.graphicWrapper{
+	margin-top: 100px;
+	width: 100%;
+	height: auto;
+}
+
+.graphicContent{
+	display: block;
+	margin: 0px auto;
+	width: 600px;
+	height: 264px;
+}
+
+.graphic{
+	display: inline-block;
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	background-image: url('../assets/Fixed_Landing_Page.png?v=1');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.emailCollectorWrapper{
+	margin-top: 80px;
+	width: 100%;
+	height: auto;
+}
+
+.emailCollectorContent{
+	display: block;
+	margin: 0px auto;
+	width: 500px;
+	height: 200px;
+}
+
+.emailCollectorTitle{
+	display: inline-block;
+	margin: 0px auto;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #149924;
+}
+
+.enterEmail{
+	display: inline-block;
+	float: left;
+	width: 380px;
+	height: 45px;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.enterEmail:focus{
+	outline: 0;
+}
+
+.submitEmail{
+	display: inline-block;
+	float: right;
+	background: #149924;
+	background-image: -webkit-linear-gradient(top, #149924, #106b1b);
+	background-image: -moz-linear-gradient(top, #149924, #106b1b);
+	background-image: -ms-linear-gradient(top, #149924, #106b1b);
+	background-image: -o-linear-gradient(top, #149924, #106b1b);
+	background-image: linear-gradient(to bottom, #149924, #106b1b);
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.submitEmail:hover{
+	background: #106b1b;
+	text-decoration: none;
+}
