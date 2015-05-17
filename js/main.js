@@ -47,7 +47,7 @@ function main(){
 	        },
 	        success: function(data){ 
 	        	console.log(data);
-	            alert("Thanks! "+userEmail+" has been added to list. We'll be in touch.");
+	            alert("Thanks! "+userEmail+" has been added to the list. We'll be in touch.");
 	        }
 	    });	
 
