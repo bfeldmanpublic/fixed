@@ -15,8 +15,8 @@ body{
 .graphicContent{
 	display: block;
 	margin: 0px auto;
-	width: 600px;
-	height: 264px;
+	width: 640px;
+	height: 159px;
 }
 
 .graphic{
@@ -24,7 +24,7 @@ body{
 	margin: 0px auto;
 	width: 100%;
 	height: 100%;
-	background-image: url('../assets/Fixed_Landing_Page.png?v=1');
+	background-image: url('../assets/newLogo.png?v=1');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
@@ -48,9 +48,9 @@ body{
 	width: 100%;
 	padding: 10px;
 	text-align: center;
-	font-family: 'Slabo 27px', serif;
+	font-family: Helvetica;
 	font-size: 26px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #149924;
 }
 
@@ -80,7 +80,7 @@ body{
 	-webkit-border-radius: 4;
 	-moz-border-radius: 4;
 	border-radius: 4px;
-	font-family: Arial;
+	font-family: Helvetica;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
