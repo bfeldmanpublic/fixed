@@ -1,5 +1,11 @@
 function main(){
 
+	var hostname = document.location.hostname;
+	
+	if((hostname != "fixedupapp.com") && (hostname != "localhost") && (hostname != "")) {
+    	window.location.href="http://www.fixedupapp.com";   
+	}
+
 	$('.enterEmail').bind('keyup', function(e) {
 
 	    if ( e.keyCode === 13 ) { // 13 is enter key
