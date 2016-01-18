@@ -47,6 +47,32 @@ function insertLead($email){
 	}
 
 }
+
+function resubmitLead($email){
+
+	$insertLead = $GLOBALS['db'] -> prepare('UPDATE leads SET resubmitted_at = ? WHERE email = ?');
+	$insertLead -> execute(array($GLOBALS['NOW'], $email));
+
+	// if($id = $GLOBALS['db']->lastInsertId()){ // Lead created successfully. Returning the new lead id.
+
+	// 	http_response_code(200);
+	// 	return array( "error"		=> false,
+	// 					"msg"		=> "success",
+	// 			    	"userID"	=> $id);
+
+	// }else{
+
+	// 	http_response_code(500);
+	// 	return array( "error"		=> true,
+	// 					"msg"		=> "No email submitted.",
+	// 					"userID"	=> null);
+	// }
+
+	return array( "error"		=> false,
+				"msg"		=> $email." resubmitted at ".$GLOBALS['NOW'],
+				"userID"	=> null);
+
+}
 		
 
 
