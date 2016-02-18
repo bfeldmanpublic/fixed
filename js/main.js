@@ -2,7 +2,8 @@ function main(){
 
 	var hostname = document.location.hostname;
 	
-	if((hostname != "fixedupapp.com") && (hostname != "localhost") && (hostname != "")) {
+	if((hostname != "www.fixedupapp.com") && (hostname != "fixedupapp.com") && (hostname != "localhost") && (hostname != "")) {
+		console.log(hostname);
     	window.location.href="http://www.fixedupapp.com";   
 	}
 
