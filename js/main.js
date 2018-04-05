@@ -2,10 +2,10 @@ function main(){
 
 	var hostname = document.location.hostname;
 	
-	if((hostname != "www.fixedupapp.com") && (hostname != "fixedupapp.com") && (hostname != "localhost") && (hostname != "")) {
-		console.log(hostname);
-    	window.location.href="http://www.fixedupapp.com";   
-	}
+	// if((hostname != "www.fixedupapp.com") && (hostname != "fixedupapp.com") && (hostname != "localhost") && (hostname != "")) {
+	// 	console.log(hostname);
+ //    	window.location.href="http://www.fixedupapp.com";   
+	// }
 
 	$('.enterEmail').bind('keyup', function(e) {
 
